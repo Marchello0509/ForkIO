@@ -379,6 +379,8 @@
   width: 100%;
   height: 759px;
   background: url(./img/testmonials-bg\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main_block3_texts {
   display: flex;

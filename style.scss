@@ -384,6 +384,8 @@ $violetd: #8D81AC;
         width: 100%;
         height: 759px;
         background: url(./img/testmonials-bg\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         &_texts {
             @include ForBlocks(center);
             &_p {
