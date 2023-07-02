@@ -29,7 +29,7 @@ $violetd: #8D81AC;
             @include FlexElement(space-between, center);
             width: 164px;
             height: 41px;
-            &_img {
+            &_svg {
                 width: 43px;
                 height: 41px;
             }
@@ -384,8 +384,6 @@ $violetd: #8D81AC;
         width: 100%;
         height: 759px;
         background: url(./img/testmonials-bg\ 1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
         &_texts {
             @include ForBlocks(center);
             &_p {
@@ -594,6 +592,48 @@ $violetd: #8D81AC;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 21px;
+                }
+            }
+        }
+    }
+    &_block4 {
+        width: 100%;
+        height: 854px;
+        background: url(./img/Layer\ 2\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &_forp {
+            @include ForBlocks(center);
+            &_p {
+                color: #FFF;
+                margin-top: 132px;
+                text-align: center;
+                font-size: 48px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 50px;
+            }
+        }
+        &_pricing {
+            @include ForBlocks(center);
+            margin-top: 62px;
+            &_forbl {
+                @include ForBlocks(center);
+                width: 1127px;
+                height: 573px;
+                &_bl1 {
+                    width: 257px;
+                    margin-top: 50px;
+                    height: 457px;
+                    opacity: 0.10999999940395355;
+                    background: #FFF;
+                    &_bl {
+                        width: 257px;
+                        height: 97px;
+                        opacity: 0.05999999865889549;
+                        background: #FFF;
+                    }
                 }
             }
         }

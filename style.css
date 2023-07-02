@@ -21,7 +21,7 @@
   width: 164px;
   height: 41px;
 }
-.header_head_logo_img {
+.header_head_logo_svg {
   width: 43px;
   height: 41px;
 }
@@ -379,8 +379,6 @@
   width: 100%;
   height: 759px;
   background: url(./img/testmonials-bg\ 1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .main_block3_texts {
   display: flex;
@@ -609,4 +607,49 @@
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+}
+.main_block4 {
+  width: 100%;
+  height: 854px;
+  background: url(./img/Layer\ 2\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_block4_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block4_forp_p {
+  color: #FFF;
+  margin-top: 132px;
+  text-align: center;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.main_block4_pricing {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+}
+.main_block4_pricing_forbl {
+  display: flex;
+  justify-content: center;
+  width: 1127px;
+  height: 573px;
+}
+.main_block4_pricing_forbl_bl1 {
+  width: 257px;
+  margin-top: 50px;
+  height: 457px;
+  opacity: 0.1099999994;
+  background: #FFF;
+}
+.main_block4_pricing_forbl_bl1_bl {
+  width: 257px;
+  height: 97px;
+  opacity: 0.0599999987;
+  background: #FFF;
 }/*# sourceMappingURL=style.css.map */
