@@ -642,6 +642,8 @@
   justify-content: center;
   width: 1127px;
   height: 573px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 .main_block4_pricing_forbl_bl1 {
   width: 257px;
@@ -654,7 +656,6 @@
 .main_block4_pricing_forbl_bl1:hover {
   transition-duration: 0.6s;
   width: 299px;
-  height: 480px;
   background: rgba(70, 48, 72, 0.5215686275);
 }
 .main_block4_pricing_forbl_bl1_bl {
@@ -737,6 +738,18 @@
   font-weight: 400;
   line-height: 18px;
 }
+.main_block4_pricing_forbl_bl1_forp3_p1 {
+  margin-top: 36px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 257px;
+  height: 44px;
+}
 .main_block4_pricing_forbl_bl1_btns {
   display: flex;
   justify-content: center;
@@ -745,6 +758,23 @@
 .main_block4_pricing_forbl_bl1_btns_btn {
   width: 160px;
   height: 42px;
+  border-radius: 40px;
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.0823529412);
+  text-align: center;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.main_block4_pricing_forbl_bl1_btns_btn1 {
+  width: 160px;
+  height: 42px;
+  margin-top: 27px;
   border-radius: 40px;
   color: #FFF;
   background: rgba(255, 255, 255, 0.0823529412);

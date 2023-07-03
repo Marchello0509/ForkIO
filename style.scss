@@ -626,6 +626,7 @@ $violetd: #8D81AC;
                 @include ForBlocks(center);
                 width: 1127px;
                 height: 573px;
+                column-gap: 20px;
                 &_bl1 {
                     width: 257px;
                     margin-top: 50px;
@@ -636,7 +637,6 @@ $violetd: #8D81AC;
                     &:hover {
                         transition-duration: 0.6s;
                         width: 299px;
-                        height: 480px;
                         background: #46304885;
                     }
                     &_bl {
@@ -713,6 +713,18 @@ $violetd: #8D81AC;
                             font-weight: 400;
                             line-height: 18px;
                         }
+                        &_p1 {
+                            margin-top: 36px;
+                            color: #FFF;
+                            text-align: center;
+                            font-size: 16px;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 18px;
+                            width: 257px;
+                            height: 44px;
+                        }
                     }
                     &_btns {
                         @include ForBlocks(center); 
@@ -720,6 +732,23 @@ $violetd: #8D81AC;
                         &_btn {
                             width: 160px;
                             height: 42px;
+                            border-radius: 40px;
+                            color: #FFF;
+                            background: #ffffff15;
+                            text-align: center;
+                            font-size: 15px;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 15px;
+                            text-transform: uppercase;
+                            border: none;
+                            cursor: pointer;
+                        }
+                        &_btn1 {
+                            width: 160px;
+                            height: 42px;
+                            margin-top: 27px;
                             border-radius: 40px;
                             color: #FFF;
                             background: #ffffff15;
