@@ -966,4 +966,68 @@
     font-weight: 400;
     line-height: 16px;
   }
+  .tabletmain_block2 {
+    width: 100%;
+    height: 189px;
+  }
+  .tabletmain_block2_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .tabletmain_block2_forp_p {
+    color: #635C73;
+    margin-top: 130px;
+    width: 598px;
+    height: 42px;
+    text-align: center;
+    font-size: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+  }
+  .tabletmain_block2_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .tabletmain_block2_forp2_p {
+    width: 689px;
+    height: 65px;
+    margin-top: 20px;
+    color: #323232;
+    text-align: center;
+    font-size: 21px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .tabletmain_block2_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .tabletmain_block2_forimg_img {
+    margin-top: 20px;
+  }
+  .tabletmain_block3 {
+    margin-top: 135px;
+    width: 100%;
+    height: 1259px;
+  }
+  .tabletmain_block3_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .tabletmain_block3_forp_p {
+    margin-top: 35px;
+    width: 541px;
+    height: 41px;
+    color: #8D81AC;
+    font-size: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+  }
 }/*# sourceMappingURL=style.css.map */
