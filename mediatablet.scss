@@ -411,7 +411,49 @@ $violetd: #8D81AC;
         &_block4 {
             width: 768px;
             height: 882px;
-            background: lime;
+            background: url(./img/backg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            &_forp  {
+                @include ForBlocks(center);
+                width: 100%;
+                &_p {
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 42px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px; 
+                    margin-top: 85px;
+                }
+            }
+            &_bl1 {
+                @include ForBlocks(center);
+                &_b1 {
+                    @include ForBlocks(center);
+                    width: 743px;
+                    height: 549px;
+                    background: lime;
+                    margin-top: 80px;
+                    &_block1 {
+                        width: 320px;
+                        height: 549px;
+                        background: burlywood;
+                        &_sm {
+                            width: 320px;
+                            height: 142px;
+                            background: violet;
+                            &_imgs {
+                                @include ForBlocks(center);
+                                &_img {
+                                    width: 165px;
+                                    height: 43px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
