@@ -401,10 +401,13 @@ $violetd: #8D81AC;
                 }
             }
             &_block2 {
-                float: right;
-                &_img {
-                    width: 700px;
-                    height: 519px;
+                display: block;
+                &_forimg {
+                    float: right;
+                    &_img {
+                        width: 700px;
+                        height: 519px;
+                    }
                 }
             }
         }
@@ -887,3 +890,4 @@ $violetd: #8D81AC;
         }
     }
 }
+

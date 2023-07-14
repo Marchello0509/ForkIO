@@ -406,9 +406,12 @@
     height: 56px;
   }
   .tabletmain_block3_block2 {
+    display: block;
+  }
+  .tabletmain_block3_block2_forimg {
     float: right;
   }
-  .tabletmain_block3_block2_img {
+  .tabletmain_block3_block2_forimg_img {
     width: 700px;
     height: 519px;
   }

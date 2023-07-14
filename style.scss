@@ -753,3 +753,87 @@ $violetd: #8D81AC;
     }
 }
 
+.tabletheader {
+    &_bl1 {
+        display: none;
+    }
+    &_bl2 {
+        display: none;
+    }
+}
+
+.tabletmain {
+    &_block1 {
+        &_bl1 {
+            &_forp {
+                display: none;
+            }
+            &_forp2 {
+                display: none;
+            }
+            &_forp3 {
+                display: none;
+            }
+            &_btns {
+                display: none;
+            }
+            &_forp4 {
+                display: none;
+            }
+        }
+    }
+    &_block2 {
+        &_forp {
+            display: none;
+        }
+        &_forp2 {
+            display: none;
+        }
+        &_forimg {
+            display: none;
+        }
+    }
+    &_block3 {
+        &_forp {
+            display: none;
+        }
+        &_block {
+            &_bl {
+                &_b1 {
+                    display: none;
+                }
+                &_b2 {
+                    display: none;
+                }
+                &_b3 {
+                    display: none;
+                }
+                &_b4 {
+                    display: none;
+                }
+            }
+        }
+        &_block2 {
+            display: none;
+        }
+    }      
+    &_block4 {
+        &_forp {
+            display: none;
+        }
+        &_bl1 {
+            display: none;
+        }
+        &_forp2 {
+            display: none;
+        }
+    }
+    &_block5 {
+        &_forp {
+            display: none;
+        }
+        &_bl1 {
+            display: none;
+        }
+    }
+}
