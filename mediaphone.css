@@ -1,0 +1,390 @@
+@media screen and (max-width: 320px) {
+  .header {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .phoneheader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 103px;
+    background: #27262A;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .phoneheader_logo {
+    width: 43px;
+    height: 41px;
+    margin-top: 31px;
+  }
+  .phoneheader_btn {
+    width: 119px;
+    height: 37px;
+    border-radius: 40px;
+    background: #8D81AC;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    margin-top: 31px;
+  }
+  .phoneheader_btn:hover {
+    transition-duration: 0.6s;
+    border: 2px solid #8D81AC;
+    background: #FFF;
+    color: #8D81AC;
+  }
+  .phoneheader_db {
+    display: block;
+  }
+  .phoneheader_db_btn2 {
+    width: 26px;
+    height: 21px;
+    border: none;
+    background: none;
+    margin-top: 38px;
+  }
+  .phoneheader_db_btn2:focus + ul {
+    display: flex;
+  }
+  .phonemain_block1 {
+    width: 100%;
+    height: 795px;
+  }
+  .phonemain_block1_bl1 {
+    width: 100%;
+    height: 718px;
+    background: url(./img/img\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .phonemain_block1_bl1_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block1_bl1_forp_p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 50px;
+  }
+  .phonemain_block1_bl1_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block1_bl1_forp2_p {
+    color: #8D81AC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 300px;
+    height: 52px;
+    margin-top: 20px;
+  }
+  .phonemain_block1_bl1_forp3 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block1_bl1_forp3_p {
+    color: #848E97;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+  .phonemain_block1_bl1_btns {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block1_bl1_btns_btn {
+    width: 290px;
+    height: 45px;
+    border-radius: 40px;
+    background: #8D81AC;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 495px;
+  }
+  .phonemain_block1_bl1_btns_btn:hover {
+    transition-duration: 0.6s;
+    border: 2px solid #8D81AC;
+    background: #FFF;
+    color: #8D81AC;
+  }
+  .phonemain_block1_bl1_forp4 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block1_bl1_forp4_p {
+    color: #848E97;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+  .phonemain_block2 {
+    width: 320px;
+    height: 273px;
+  }
+  .phonemain_block2_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block2_forp_p {
+    color: #635C73;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .phonemain_block2_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block2_forp2_p {
+    color: #323232;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 276px;
+    height: 74px;
+    margin-top: 15px;
+  }
+  .phonemain_block2_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block2_forimg_img {
+    margin-top: 35px;
+  }
+  .phonemain_block3 {
+    width: 100%;
+    height: 1500px;
+  }
+  .phonemain_block3_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_forp_p {
+    color: #8D81AC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    width: 250px;
+    height: 70px;
+  }
+  .phonemain_block3_bl1 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl1_b1 {
+    width: 269px;
+    height: 203px;
+    margin-top: 36px;
+  }
+  .phonemain_block3_bl1_b1_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl1_b1_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl1_b1_forp_p {
+    color: #323232;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 27px;
+  }
+  .phonemain_block3_bl1_b1_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl1_b1_forp2_p {
+    color: #848E97;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    width: 269px;
+    height: 81px;
+    margin-top: 14px;
+  }
+  .phonemain_block3_bl2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl2_b1 {
+    width: 269px;
+    height: 211px;
+    margin-top: 36px;
+  }
+  .phonemain_block3_bl2_b1_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl2_b1_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl2_b1_forp_p {
+    color: #323232;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 27px;
+  }
+  .phonemain_block3_bl2_b1_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl2_b1_forp2_p {
+    color: #848E97;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    width: 271px;
+    height: 77px;
+    margin-top: 14px;
+  }
+  .phonemain_block3_bl3 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl3_b1 {
+    width: 268px;
+    height: 216px;
+    margin-top: 40px;
+  }
+  .phonemain_block3_bl3_b1_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl3_b1_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl3_b1_forp_p {
+    color: #323232;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 27px;
+  }
+  .phonemain_block3_bl3_b1_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl3_b1_forp2_p {
+    color: #848E97;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    width: 268px;
+    height: 77px;
+    margin-top: 14px;
+  }
+  .phonemain_block3_bl4 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl4_b1 {
+    width: 277px;
+    height: 206px;
+    margin-top: 42px;
+  }
+  .phonemain_block3_bl4_b1_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl4_b1_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl4_b1_forp_p {
+    color: #323232;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 27px;
+  }
+  .phonemain_block3_bl4_b1_forp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .phonemain_block3_bl4_b1_forp2_p {
+    color: #848E97;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    width: 268px;
+    height: 77px;
+    margin-top: 14px;
+  }
+  .phonemain_block3_forimg2 {
+    float: right;
+  }
+  .phonemain_block3_forimg2_img {
+    width: 317px;
+    height: 381px;
+    margin-top: 58px;
+  }
+}/*# sourceMappingURL=mediaphone.css.map */

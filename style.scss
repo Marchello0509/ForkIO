@@ -231,7 +231,7 @@ $violetd: #8D81AC;
         &_right {
             width: 536px;
             height: 541px;
-            margin-left: 359px;
+            margin-left: 190px;
             margin-top: 100px;
             &_bl {
                 @include ForBlocks(center);
@@ -386,7 +386,6 @@ $violetd: #8D81AC;
         background: url(./img/backg.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        
         &_texts {
             @include ForBlocks(center);
             &_p {
