@@ -836,3 +836,93 @@ $violetd: #8D81AC;
         }
     }
 }
+
+.phoneheader {
+    display: none;
+}
+.phonemain {
+    &_block1 {
+        &_bl1 {
+            &_forp {
+                display: none;
+            }
+            &_forp2 {
+                display: none;
+            }
+            &_forp3 {
+                display: none;
+            }
+            &_btns {
+                display: none;
+            }
+            &_forp4 {
+                display: none;
+            }
+        }
+    }
+    &_block2 {
+        &_forp {
+            display: none;
+        }
+        &_forp2 {
+            display: none;
+        }
+        &_forimg {
+            display: none;
+        }
+    }
+    &_block3 {
+        &_forp {
+            display: none;
+        }
+        &_bl1 {
+            display: none;
+        }
+        &_bl2 {
+            display: none;
+        }
+        &_bl3 {
+            display: none;
+        }
+        &_bl4 {
+            display: none;
+        }
+        &_forimg2 {
+            display: none;
+        }
+    }
+    &_block4 {
+        &_forp {
+            display: none;
+        }
+        &_bl1 {
+            display: none;
+        }
+        &_bl2 {
+            display: none;
+        }
+        &_bl3 {
+            display: none;
+        }
+        &_bl4 {
+            display: none;
+        }
+        &_bl5 {
+            display: none;
+        }
+        &_bl6 {
+            display: none;
+        }
+        &_forp2 {
+            display: none;
+        }
+    }
+    &_block5 {
+        &_forp {
+            display: none;
+        }
+        &_bl1 {
+            display: none;
+        }
+    }
+}
